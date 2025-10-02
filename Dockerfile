@@ -27,3 +27,4 @@ CMD ["gunicorn", "--bind", "0.0.0.0:8000", "your_project.wsgi:application"]
 
 # For development, use Django's runserver (not recommended for production)
 # CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+# this line will trigger the jenkins to build a new pipleine
